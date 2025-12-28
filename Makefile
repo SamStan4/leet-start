@@ -1,6 +1,8 @@
 .PHONY: \
 	clean \
 	build \
+	test-bats \
+	test-go \
 	test \
 
 MAIN_FILE := cmd/leetstart/main.go
